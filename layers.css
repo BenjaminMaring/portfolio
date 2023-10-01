@@ -52,12 +52,30 @@ img {
     z-index: 5;
     box-shadow: 3px 3px rgba(253, 219, 90, 0.4);
 }
+
+.list li:nth-child(2):hover {
+    box-shadow: 3px 3px rgba(253, 219, 90, 0.4),
+                10px 10px 5px rgba(253, 219, 90, 0.4),
+                15px 15px 8px rgba(253, 219, 90, 0.4);
+}
 .list li:nth-child(3) {
     z-index: 6;
     box-shadow: 3px 3px rgb(41, 153, 192, 0.4);
 }
 
+.list li:nth-child(3):hover {
+    box-shadow: 3px 3px rgb(41, 153, 192, 0.4),
+                10px 10px 5px rgb(41, 153, 192, 0.4),
+                15px 15px 8px rgb(41, 153, 192, 0.4);
+}
+
 .list li:nth-child(4) {
     z-index: 7;
-    box-shadow: 3px 3px rgb(192, 37, 162, 0.4);
+    box-shadow: 3px 3px rgba(63, 192, 37, 0.4);
+}
+
+.list li:nth-child(4):hover {
+    box-shadow: 3px 3px rgba(63, 192, 37, 0.4),
+                10px 10px 5px rgba(63, 192, 37, 0.4),
+                15px 15px 8px rgba(63, 192, 37, 0.4);
 }
